@@ -1,4 +1,8 @@
 module com.example.fx {
+    //FXML import
+    requires javafx.graphics;
+    requires javafx.base;
+    requires javafx.media;
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -8,7 +12,6 @@ module com.example.fx {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
     opens com.example.fx to javafx.fxml;
